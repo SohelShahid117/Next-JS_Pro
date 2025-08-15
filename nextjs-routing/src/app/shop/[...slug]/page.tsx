@@ -1,9 +1,11 @@
+import { notFound } from "next/navigation";
 import React from "react";
 
 const ProductDetails = async ({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  // params: Promise<{ slug: string }>;
+  params: { slug: string[] };
 }) => {
   const { slug } = await params;
   console.log("product slug is : ", slug);
@@ -14,6 +16,9 @@ const ProductDetails = async ({
   //     return <p>viewing product for category {slug[0]}</p>;
   //   }
   // return {slug?.length>2 && slug.map(item )=><p>{item}</p>}
+  if (slug.length > 3) {
+    return notFound();
+  }
   return (
     <div>
       Product Details Page
