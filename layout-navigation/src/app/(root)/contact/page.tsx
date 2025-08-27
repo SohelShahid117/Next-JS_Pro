@@ -1,11 +1,13 @@
-import React from 'react'
+import { Metadata } from "next";
+import React from "react";
+
+export const metadata: Metadata = {
+  title: "Contact page",
+  description: "Enjoy Next JS app",
+};
 
 const Contact = () => {
-  return (
-    <div>
-      Contact Page
-    </div>
-  )
-}
+  return <div>Contact Page</div>;
+};
 
-export default Contact
+export default Contact;
