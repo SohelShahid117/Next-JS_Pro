@@ -3,7 +3,7 @@ import React from "react";
 
 export const metadata: Metadata = {
   title: "About page",
-  description: "Enjoy Next JS app",
+  // description: "Enjoy Next JS app",
 };
 
 const About = () => {

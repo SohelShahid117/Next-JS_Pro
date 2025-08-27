@@ -14,7 +14,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Next JS app",
+  // title: "My Next JS app",
+  title:{
+    default:"bike share",
+    template:"%s | Bike sharing apps",
+    // template:"Bike sharing apps | %s",
+    absolute:""
+  },
   description: "Enjoy Next JS app",
 };
 
