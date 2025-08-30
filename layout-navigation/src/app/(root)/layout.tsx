@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   // title: "My Next JS app",
-  title:{
-    default:"bike share",
-    template:"%s | Bike sharing apps",
+  title: {
+    default: "bike share",
+    template: "%s | Bike sharing apps",
     // template:"Bike sharing apps | %s",
-    absolute:""
+    absolute: "",
   },
   description: "Enjoy Next JS app",
 };
@@ -35,22 +35,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* <nav>
-          <ul className="flex gap-3">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/about">About</Link>
-            </li>
-            <li>
-              <Link href="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav> */}
-        <Navbar/>
-        {children}
-        <footer>Footer</footer>
+        <Navbar />
+        <main className="max-w-7xl mx-auto min-h-screen">{children}</main>
+        <footer className="max-w-7xl mx-auto">Footer</footer>
       </body>
     </html>
   );
