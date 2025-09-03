@@ -6,19 +6,19 @@ const blogPosts = [
     {
         id:1,
         title:"Learn Next JS",
-        slug:"Next JS course",
+        slug:"Next-JS-course",
         from:"homepage"
     },
     {
         id:2,
         title:"Learn React",
-        slug:"React course",
+        slug:"React-course",
         from:"W3 School"
     },
     {
         id:3,
         title:"Learn Tailwind CSS",
-        slug:"Tailwind CSS course",
+        slug:"Tailwind-CSS-course",
         from:"newsletter"
     },
    
