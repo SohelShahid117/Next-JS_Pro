@@ -10,6 +10,7 @@ type DashboardLayoutProps = {
   invoices: React.ReactNode;
   revenue: React.ReactNode;
   users: React.ReactNode;
+  notifications: React.ReactNode;
 };
 
 const DashboardLayout = ({
@@ -17,6 +18,7 @@ const DashboardLayout = ({
   invoices,
   revenue,
   users,
+  notifications,
 }: DashboardLayoutProps) => {
   return (
     <div className="flex min-h-screen m-5">
@@ -32,6 +34,7 @@ const DashboardLayout = ({
         <div className="mt-5">
           {/* <Revenue /> */}
           {revenue}
+          {notifications}
         </div>
       </div>
     </div>
