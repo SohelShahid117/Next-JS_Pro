@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const AdvancedDashboard = () => {
   return (
-    <div>Advanced Dashboard</div>
-  )
-}
+    <div className="text-lg font-semibold">Welcome to Advanced Dashboard</div>
+  );
+};
 
-export default AdvancedDashboard
+export default AdvancedDashboard;
