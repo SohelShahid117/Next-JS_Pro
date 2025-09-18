@@ -3,7 +3,8 @@ import React from 'react'
 
 const DashboardLayout = ({children}:{children:React.ReactNode}) => {
   console.log("template.tsx rendered...")
-    const isLoggedIn = false;
+    // const isLoggedIn = false;
+    const isLoggedIn = true;
     if(!isLoggedIn){
       
       redirect("/login")
