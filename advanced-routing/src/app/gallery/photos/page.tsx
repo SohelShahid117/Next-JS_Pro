@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const PhotosPage = () => {
   return (
-    <div>Photos Page</div>
-  )
-}
+    <div>
+      <h1>Photos page</h1>
+    </div>
+  );
+};
 
-export default PhotosPage
+export default PhotosPage;

@@ -1,13 +1,15 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 const GalleryPage = () => {
   return (
     <div>
-        <h1 className='text-3xl mb-4'>Gallery Page</h1>
-        <Link href="/gallery/photos" className='bg-amber-50 px-5 py-2'>go to Photos</Link>
+      <h1 className="text-3xl mb-4">Gallery Page</h1>
+      <Link href="/image/1235" className="bg-amber-50 px-5 py-2">
+        go to Image-123
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default GalleryPage
+export default GalleryPage;
